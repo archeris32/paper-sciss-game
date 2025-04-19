@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="text/javascript" src="code.js"></script>
-
 </head>
 <body>
+    <div >Score: 
+        <p class="score"></p>
+    </div>
+    <div>
+        <p >Computer Score: </p>
+        <p class="compScore"> </p>
+    </div>
+    <div>
+        <p >Player score: </p>
+        <p class="playerScore"> </p>
+    </div>
+    <div>
+        <div class="container">
+            <input class="rock" type="image" src="https://t3.ftcdn.net/jpg/01/23/14/80/360_F_123148069_wkgBuIsIROXbyLVWq7YNhJWPcxlamPeZ.jpg" />
+        </div>
+        <div class="container"><input type="image" class="scissors" src="https://t4.ftcdn.net/jpg/02/55/26/63/360_F_255266320_plc5wjJmfpqqKLh0WnJyLmjc6jFE9vfo.jpg"></div>
+        <div class="container"><input type="image" class="paper" src="https://www.collinsdictionary.com/images/full/paper_111691001.jpg"></div>
+    </div>
+        <button class="start"> New Game</button>
 </body>
+<script type="text/javascript" src="code.js"></script>
+<style>
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    input{
+        width: 100px;
+        height: 100px;
+    }
+</style>
 </html>
