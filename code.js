@@ -3,10 +3,7 @@ function getComputerChoice(){
     let randomIndex= Math.floor(Math.random()* arr.length)
     return arr[randomIndex]
 }
-function getHumanChoice(){
-    let choice = prompt("Choose between rock, paper, scissors!!!")
-    return choice
-}
+
 
 let humanScore = 0
 let computerScore = 0
